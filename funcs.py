@@ -2,6 +2,7 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import os
+import itertools
 
 def filter(dataset):
   datasets = ["catsvsdogs", "PC3vsDU145", "PC3vsLnCAP", "SKOV3nvsd"]
