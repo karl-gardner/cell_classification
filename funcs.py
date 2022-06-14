@@ -27,7 +27,7 @@ def filter(dataset):
           fobj.close()
         if (not check_1) or (not check_2):
           # Delete corrupted image
-          # os.remove(fpath)
+          os.remove(fpath)
           if class_name == class_names[dataset][0]:
             class_1  += 1
           if class_name == class_names[dataset][1]:
