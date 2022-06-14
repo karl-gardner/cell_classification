@@ -1,3 +1,37 @@
+# imports
+import tensorflow as tf
+import matplotlib.pyplot as plt
+
+def filter(dataset):
+  datasets = ["catsvsdogs", "PC3vsDU145", "PC3vsLnCAP", "SKOV3nvsd"]
+  class_names = [["dogs", "cats"], ["DU145", "PC3"], ["LnCAP", "PC3"], ["drSKOV3", "nSKOV3"]]
+  if datasets[dataset] == "catsvsdogs":
+    code_byte = "JFIF"
+    extension = ".jpg"
+  else:
+    code_byte = "PNG"
+    extension = ".png"
+  class_1 = 0
+  class_2 = 0
+  for class_name in class_names[dataset]:
+    for split in ["training", "testing", "validation"]:
+      folder_path = f"{datasets[dataset]}/split_ds/{split}/{class_name}"
+      for fname in os.listdir(folder_path):
+        fpath = f"{folder_path}/{fname}"
+        try:
+          fobj = open(fpath, "rb")
+          check_1 = tf.compat.as_bytes(code_byte) in fobj.peek(10)
+          check_2 = fpath[-4:] == extension
+        finally:
+          fobj.close()
+        if (not check_1) or (not check_2):
+          # Delete corrupted image
+          # os.remove(fpath)
+          if class_name == class_names[dataset][0]:
+            class_1  += 1
+          if class_name == class_names[dataset][1]:
+            class_2 += 1
+  return (class_1, class_2)
 
 
 def plot_confusion_matrix(cm, target_names, title='Confusion matrix', 
