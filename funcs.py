@@ -35,56 +35,23 @@ def filter(dataset):
   return (class_1, class_2)
 
 
-def plot_confusion_matrix(cm, target_names, title='Confusion matrix', 
-                          cmap=None, normalize=True):
-    """
-    given a sklearn confusion matrix (cm), make a nice plot
 
-    Arguments
-    ---------
-    cm:           confusion matrix from sklearn.metrics.confusion_matrix
-
-    target_names: given classification classes such as [0, 1, 2]
-                  the class names, for example: ['high', 'medium', 'low']
-
-    title:        the text to display at the top of the matrix
-
-    cmap:         the gradient of the values displayed from matplotlib.pyplot.cm
-                  see http://matplotlib.org/examples/color/colormaps_reference.html
-                  plt.get_cmap('jet') or plt.cm.Blues
-
-    normalize:    If False, plot the raw numbers
-                  If True, plot the proportions
-
-    Usage
-    -----
-    plot_confusion_matrix(cm           = cm,                  # confusion matrix created by
-                                                              # sklearn.metrics.confusion_matrix
-                          normalize    = True,                # show proportions
-                          target_names = y_labels_vals,       # list of names of the classes
-                          title        = best_estimator_name) # title of graph
-
-    Citiation
-    ---------
-    http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
-
-    """
+def save_confusion_matrix(cm, target_names, normalize=True):
 
     accuracy = np.trace(cm) / float(np.sum(cm))
     misclass = 1 - accuracy
-
-    if cmap is None:
-        cmap = plt.get_cmap('Blues')
+    
+    cmap = plt.get_cmap('summer')
 
     plt.figure(figsize=(8, 6))
     plt.imshow(cm, interpolation='nearest', cmap=cmap)
-    plt.title(title)
-    plt.colorbar()
+    cbar = plt.colorbar()
+    cbar.ax.tick_params(labelsize=15)
 
     if target_names is not None:
         tick_marks = np.arange(len(target_names))
-        plt.xticks(tick_marks, target_names, rotation=45)
-        plt.yticks(tick_marks, target_names)
+        plt.xticks(tick_marks, target_names, rotation=45,fontsize=20)
+        plt.yticks(tick_marks, target_names,fontsize=20)
 
     if normalize:
         cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
@@ -97,8 +64,9 @@ def plot_confusion_matrix(cm, target_names, title='Confusion matrix',
         else:
             plt.text(j, i, "{:,}".format(cm[i, j]),
                      horizontalalignment="center",
-                     color= "black")
+                     color= "black",fontsize=20)
     plt.tight_layout()
-    plt.ylabel("True label")
-    plt.xlabel("Predicted label".format(accuracy, misclass))
+    plt.ylabel("True label", fontsize=20)
+    plt.xlabel("Predicted label".format(accuracy, misclass), fontsize=20)
+    plt.savefig("/confusion_matrix.tif", dpi=500, bbox_inches="tight", transparent="True")
     plt.show()
