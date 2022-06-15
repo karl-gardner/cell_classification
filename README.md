@@ -22,9 +22,9 @@
   <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/classify_ctcs.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/173893375-0cbf90a0-fa0b-4e70-88ba-3f974359ca74.svg" height="32"/></a>
 
-  <a href="https://colab.research.google.com/github/karl-gardner/droplet_detection/blob/master/yolov5.ipynb">
-  <img src="https://user-images.githubusercontent.com/91646805/156640073-0a7ad496-7691-4e1c-822c-b78f3e7d070b.svg" height="32"/></a>
-  
+  <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/split_dataset.ipynb">
+  <img src="https://user-images.githubusercontent.com/91646805/173894210-b7c51cae-0ce9-4de7-aab6-faa19fc626bd.svg" height="32"/></a>
+
   <a href="https://github.com/ultralytics">
   <img src="https://user-images.githubusercontent.com/91646805/156641066-fbc3635b-f373-4cb7-b141-9bcaad21beff.svg" height="32"/></a>
 
