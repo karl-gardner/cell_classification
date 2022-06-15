@@ -31,7 +31,7 @@
 
 
 # CTC Classification
-Encapsulation of cells inside microfluidic droplets is central to several applications involving cellular analysis. Although, theoretically the encapsulation statistics are expected to follow Poisson distribution, experimentally this may not be achieved due to lack of full control of the experimental variables and conditions. Therefore, there is a need to automatically detect droplets and enumerate cell counts within droplets so that this can be used as process control feedback to adjust experimental conditions. In this study, we use a deep learning object detector called You Only Look Once (YOLO), an influential class of object detectors with several benefits over traditional methods. This paper investigates the application of both YOLOv3 and YOLOv5 object detectors in the development of an automated droplet and cell detector. Experimental data was obtained from a microfluidic flow focusing device with a dispersed phase of cancer cells. The microfluidic device contained an expansion chamber downstream of the droplet generator, allowing for visualization and recording of cell-encapsulated droplet images. In the procedure, a droplet bounding box is predicted, then cropped from the original image for the individual cells to be detected through a separate model for further examination. The system includes a production set for additional performance analysis with Poisson statistics while providing an experimental workflow with both droplet and cell models. The training set is collected and preprocessed before labeling and applying image augmentations, allowing for a generalizable object detector. Precision and recall were utilized as a validation and test set metric, resulting in a high mean average precision (mAP) metric for an accurate droplet detector. To examine model limitations, the predictions were compared to ground truth labels, illustrating that the YOLO predictions closely matched with the droplet and cell labels. Furthermore, it is demonstrated that droplet enumeration from the YOLOv3 model is consistent with hand counted ratios and the Poisson distribution, confirming that the platform can be used in real-time experiments for encapsulation optimization.
+Abstract Goes Here
 </div>
 
 ![project_workflow](https://user-images.githubusercontent.com/91646805/169369625-ad3ce7ff-9b38-4820-abef-8962b6750bf6.jpg)
@@ -40,8 +40,8 @@ Encapsulation of cells inside microfluidic droplets is central to several applic
 <summary>Instructions (click to expand)</summary>
 <br>
 
-1) First create a folder in your google drive account called droplet_classification (This step is important in order to keep the directories in check)
-2) Use this link <a href="https://drive.google.com/drive/folders/1Oo68HSdU-jzcBAEr0yeRuzuSxoprEP_D?usp=sharing">
+1) First create a folder in your google drive account called "ctc_classification" (This step is important in order to keep the directories in check)
+2) Use this link <a href="https://drive.google.com/drive/folders/1gDWWXDQp-M0cqsKTranTf05x-TqDn4a0?usp=sharing">
   <img src="https://user-images.githubusercontent.com/91646805/156700933-5cc77dba-5df1-40c0-94c8-7459abb6402b.svg" height="18"/></a> to access the shared google drive folder
 3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
 4) Click on the "Add shortcut to Drive" button then navigate to inside your droplet_classification folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your droplet_classification folder.
