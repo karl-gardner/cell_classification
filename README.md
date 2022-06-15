@@ -45,9 +45,10 @@ Abstract Goes Here
   <img src="https://user-images.githubusercontent.com/91646805/156700933-5cc77dba-5df1-40c0-94c8-7459abb6402b.svg" height="18"/></a> to access the shared google drive folder
 3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
 4) Click on the "Add shortcut to Drive" button then navigate to inside your droplet_classification folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your ctc_classification folder.
-5) Open the yolov3 colab notebook from this link <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/classify_ctcs.ipynb">
+5) Open the classify_ctcs.ipynb colab notebook from this link <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/classify_ctcs.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/173893375-0cbf90a0-fa0b-4e70-88ba-3f974359ca74.svg" height="32"/></a> then click "Save a copy in Drive" under File > Save a copy in Drive.
-6) This will save the notebook in the "Colab Notebooks" folder in your google drive.  Move this notebook to the ctc_classification folder and rename it classify_ctcs.ipynb in order for the directories to be correct.  The final ctc_classification folder should look like this:![image](https://user-images.githubusercontent.com/91646805/173896693-cae54e0a-ab1e-4c05-a221-b5629ed45d20.png)
+6) This will save the notebook in the "Colab Notebooks" folder in your google drive.  Move this notebook to the ctc_classification folder and rename it classify_ctcs.ipynb in order for the directories to be correct.  The final ctc_classification folder should look like this:![image](https://user-images.githubusercontent.com/91646805/173897636-ec024bb9-5484-444e-8709-497db1ffcab9.png)
+
 
 
 7) Find the droplet model dataset here: <a href="https://universe.roboflow.com/karl-gardner-kmk9u/pc3dropletdetection2/5">
