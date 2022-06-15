@@ -19,7 +19,7 @@
   <a href="https://www.rsc.org/journals-books-databases/about-journals/lab-on-a-chip/">
   <img src="https://user-images.githubusercontent.com/91646805/169677461-13cb1d50-e7cf-457e-8777-cc6df29ce0bd.svg" height="32"/></a>
   
-  <a href="https://colab.research.google.com/github/karl-gardner/droplet_detection/blob/master/yolov3.ipynb">
+  <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/classify_ctcs.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/173893375-0cbf90a0-fa0b-4e70-88ba-3f974359ca74.svg" height="32"/></a>
 
   <a href="https://colab.research.google.com/github/karl-gardner/droplet_detection/blob/master/yolov5.ipynb">
