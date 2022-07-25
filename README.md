@@ -44,7 +44,7 @@ Abstract Goes Here
 2) Use this link <a href="https://drive.google.com/drive/folders/1gDWWXDQp-M0cqsKTranTf05x-TqDn4a0?usp=sharing">
   <img src="https://user-images.githubusercontent.com/91646805/156700933-5cc77dba-5df1-40c0-94c8-7459abb6402b.svg" height="18"/></a> to access the shared google drive folder
 3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
-4) Click on the "Add shortcut to Drive" button then navigate to inside your droplet_classification folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your ctc_classification folder.
+4) Click on the "Add shortcut to Drive" button then navigate to inside your ctc_classification folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your ctc_classification folder.
 5) Open the classify_ctcs.ipynb colab notebook from this link <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/classify_ctcs.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/174132568-f2367233-46f3-45f2-8cfe-7e89ce4789ed.svg" height="19"/></a> then click "Save a copy in Drive" under File > Save a copy in Drive.
 
