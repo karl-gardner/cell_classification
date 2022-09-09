@@ -35,7 +35,7 @@ Abstract Goes Here
 </div>
 
 
-<img src="https://user-images.githubusercontent.com/91646805/189385088-c49a2a9d-e480-4006-a12b-a64afbddbce8.png" height="18"/></a>
+<img src="https://user-images.githubusercontent.com/91646805/189385478-fa023133-5896-491c-9a65-81003dd1fc96.jpg" height="18"/></a>
 
 
 <details>
