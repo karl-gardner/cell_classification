@@ -34,7 +34,8 @@
 Abstract Goes Here
 </div>
 
-![project_workflow](https://user-images.githubusercontent.com/91646805/189384798-e2dda940-47e3-4be8-844a-d6fd34e5d059.png)
+
+<img src="https://user-images.githubusercontent.com/91646805/189385088-c49a2a9d-e480-4006-a12b-a64afbddbce8.png" height="18"/></a>
 
 
 <details>
