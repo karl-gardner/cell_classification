@@ -38,7 +38,7 @@ def filter(dataset):
 
 
 
-def save_confusion_matrix(cm, target_names, fname, normalize=True):
+def save_confusion_matrix(cm, target_names, fname="/confusion_matrix.tif", normalize=True):
 
     accuracy = np.trace(cm) / float(np.sum(cm))
     misclass = 1 - accuracy
