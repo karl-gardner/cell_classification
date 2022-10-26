@@ -38,7 +38,7 @@ def filter(dataset):
 
 
 
-def save_confusion_matrix(cm, target_names, normalize=True):
+def save_confusion_matrix(cm, target_names, fname, normalize=True):
 
     accuracy = np.trace(cm) / float(np.sum(cm))
     misclass = 1 - accuracy
@@ -70,5 +70,5 @@ def save_confusion_matrix(cm, target_names, normalize=True):
     plt.tight_layout()
     plt.ylabel("True label", fontsize=20)
     plt.xlabel("Predicted label".format(accuracy, misclass), fontsize=20)
-    plt.savefig("/confusion_matrix.tif", dpi=500, bbox_inches="tight", transparent="True")
+    plt.savefig(fname, dpi=500, bbox_inches="tight", transparent="True")
     plt.show()
