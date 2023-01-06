@@ -59,14 +59,8 @@ Nearly all figures and tables from the paper are outlined in ENetV2 and ResNet50
 After running this cell you will get the following output:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/211100493-ba3985fa-9d8e-4a17-8e33-b227c7546f3a.png"/></a>
 <br><br>
-then uncommenting section 2. labeled: "For droplet model". Then the following output will be printed:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249418-e3420c46-20d0-4803-bd65-38fe8fb1bea1.PNG"/></a>
-<br><br>
-The same procedure can be used for the cell model to produce the following result:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249529-27c786d9-fb73-47a9-9590-dcc8f5fd277f.PNG"/></a>
-<br><br>
-This matches Table 2 in the publication:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249617-8fddc568-d50a-443b-a4b3-fb9186071308.PNG"/></a>
+This matches the numbers for the SKOV3drvsn dataset in Table 2 in the publication:<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/211100889-e8a8ca6e-15ea-4fc5-bc84-0360803c6630.png"/></a>
 
 
 
