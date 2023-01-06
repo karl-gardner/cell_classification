@@ -54,7 +54,7 @@ Cancer diagnostics is an important field of cancer recovery and survival with ma
 <details>
 <summary>Testing (click to expand)</summary><br>
 Nearly all figures and tables from the paper are outlined in ENetV2 and ResNet50 colab notebooks. For example Table 1 displays the annotation summary for each dataset after augmentations. This can be shown in section 6.2 of each colab notebook:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186248580-b9d22a03-ee4f-451f-bd5e-19af2ee4fb01.PNG"/></a>
+<img src="https://user-images.githubusercontent.com/91646805/211099433-38b2b287-b67f-4a9b-b3e8-37e5b2d1e781.png"/></a>
 <br><br>
 You may run this for example by first uncommenting section 1.1 labeled "Data with No Augmentation (No_Augmentation)":<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/186249216-0d38a78b-a25b-436e-919b-e94f19776039.PNG"/></a>
