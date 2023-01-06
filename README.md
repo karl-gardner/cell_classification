@@ -7,8 +7,8 @@
   <a href="https://www.depts.ttu.edu/che/research/li-lab/">
   <img src="https://user-images.githubusercontent.com/91646805/156635015-0cdcb0bb-0482-4693-b096-04f2a78f6b8e.svg" height="32"/></a>
   
-  <a href="https://vanapallilab.wixsite.com/microfluidics">
-  <img src="https://user-images.githubusercontent.com/91646805/211090371-b36f11db-15e7-48eb-901a-44204998ec38.svg" height="32"/></a>
+  <a href="https://sites.google.com/view/scalab/">
+  <img src="https://user-images.githubusercontent.com/91646805/211090371-b36f11db-15e7-48eb-901a-44204998ec38.svg" height="38"/></a>
   
   <a href="https://www.depts.ttu.edu/che/">
   <img src="https://user-images.githubusercontent.com/91646805/156641068-be8f0336-89b5-43e9-aa64-39481ce37c94.svg" height="32"/></a>
