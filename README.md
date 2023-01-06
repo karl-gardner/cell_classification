@@ -26,7 +26,7 @@
   <img src="https://user-images.githubusercontent.com/91646805/173894210-b7c51cae-0ce9-4de7-aab6-faa19fc626bd.svg" height="32"/></a>
 
   <a href="https://github.com/ultralytics">
-  <img src="https://user-images.githubusercontent.com/91646805/156641066-fbc3635b-f373-4cb7-b141-9bcaad21beff.svg" height="32"/></a>
+  <img src="https://user-images.githubusercontent.com/91646805/211091614-8e8b4c0a-9f0f-4276-bb36-0ce92040dbe8.svg" height="32"/></a>
 
 
 
