@@ -38,14 +38,15 @@ Cancer diagnostics is an important field of cancer recovery and survival with ma
 <details>
 <summary>Instructions (click to expand)</summary>
 <br>
+![EnetV2]()
 
 1) First create a folder in your google drive account called "ctc_classification" (This step is important in order to keep the directories in check)
 2) Use this link <a href="https://drive.google.com/drive/folders/1gDWWXDQp-M0cqsKTranTf05x-TqDn4a0?usp=sharing">
   <img src="https://user-images.githubusercontent.com/91646805/156700933-5cc77dba-5df1-40c0-94c8-7459abb6402b.svg" height="18"/></a> to access the shared google drive folder
 3) At the top there will be a dropdown arrow after the folder location (Shared with me > data_files): click on this dropdown arrow
 4) Click on the "Add shortcut to Drive" button then navigate to inside your ctc_classification folder and click the blue "Add Shortcut" button.  This will add a shortcut to the shared google drive folder in your ctc_classification folder.
-5) Open the classify_ctcs.ipynb colab notebook from this link <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/classify_ctcs.ipynb">
-  <img src="https://user-images.githubusercontent.com/91646805/174132568-f2367233-46f3-45f2-8cfe-7e89ce4789ed.svg" height="19"/></a> then click "Save a copy in Drive" under File > Save a copy in Drive.
+5) Open the ENetV2_classifier.ipynb colab notebook from this link <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/ENetV2_classifier.ipynb">
+  <img src="https://user-images.githubusercontent.com/91646805/211095217-ff509b09-64bc-4c0d-876c-43bddb35372f.svg" height="19"/></a> then click "Save a copy in Drive" under File > Save a copy in Drive.
 
 6) This will save the notebook in the "Colab Notebooks" folder in your google drive.  Move this notebook to the ctc_classification folder and rename it classify_ctcs.ipynb in order for the directories to be correct.  The final ctc_classification folder should look like this:![image](https://user-images.githubusercontent.com/91646805/173897636-ec024bb9-5484-444e-8709-497db1ffcab9.png)
 
