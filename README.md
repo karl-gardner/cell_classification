@@ -56,8 +56,8 @@ Cancer diagnostics is an important field of cancer recovery and survival with ma
 Nearly all figures and tables from the paper are outlined in ENetV2 and ResNet50 colab notebooks. For example Table 1 displays the annotation summary for each dataset after augmentations. This can be shown in section 6.2 of each colab notebook:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/211099908-161890cf-5937-4938-96c6-0a2ea842223c.png"/></a>
 <br><br>
-You may run this for example by first uncommenting section 1.1 labeled "Data with No Augmentation (No_Augmentation)":<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/186249216-0d38a78b-a25b-436e-919b-e94f19776039.PNG"/></a>
+After running this cell you will get the following output:<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/211100337-7f3b58e8-ade6-4251-b3a7-10fb0faf1747.png"/></a>
 <br><br>
 then uncommenting section 2. labeled: "For droplet model". Then the following output will be printed:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/186249418-e3420c46-20d0-4803-bd65-38fe8fb1bea1.PNG"/></a>
@@ -67,6 +67,7 @@ The same procedure can be used for the cell model to produce the following resul
 <br><br>
 This matches Table 2 in the publication:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/186249617-8fddc568-d50a-443b-a4b3-fb9186071308.PNG"/></a>
+
 
 </details>
 
