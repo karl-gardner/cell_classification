@@ -19,16 +19,14 @@
   <a href="https://www.rsc.org/journals-books-databases/about-journals/lab-on-a-chip/">
   <img src="https://user-images.githubusercontent.com/91646805/169677461-13cb1d50-e7cf-457e-8777-cc6df29ce0bd.svg" height="32"/></a>
   
-  <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/classify_ctcs.ipynb">
+  <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/ENetV2_classifier.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/211091206-4bee10e4-0e41-4639-899f-e52dec841878.svg" height="32"/></a>
 
-  <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/split_dataset.ipynb">
-  <img src="https://user-images.githubusercontent.com/91646805/173894210-b7c51cae-0ce9-4de7-aab6-faa19fc626bd.svg" height="32"/></a>
-
-  <a href="https://github.com/ultralytics">
+  <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/ResNet_classifier.ipynb">
   <img src="https://user-images.githubusercontent.com/91646805/211091614-8e8b4c0a-9f0f-4276-bb36-0ce92040dbe8.svg" height="32"/></a>
 
-
+ <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/split_dataset.ipynb">
+  <img src="https://user-images.githubusercontent.com/91646805/173894210-b7c51cae-0ce9-4de7-aab6-faa19fc626bd.svg" height="32"/></a>
 
 
 # CTC Classification
