@@ -53,12 +53,20 @@ Cancer diagnostics is an important field of cancer recovery and survival with ma
 
 <details>
 <summary>Testing (click to expand)</summary><br>
-Nearly all figures and tables from the paper are outlined in yolov3.ipynb and yolov5.ipynb colab notebooks. For example Table 2 displays the annotation summary for cell and droplet models before augmentations. This can be shown in section 2. of the colab notebook:
-![table_2](https://user-images.githubusercontent.com/91646805/170845758-27eae439-ad1f-4327-b970-9c21235a06b7.jpg)
-You may run this for example by first uncommenting section 1.1 labeled "Data with No Augmentation (No_Augmentation)" then uncommenting section 2. labeled: "For droplet model". Then the following output will be printed:
-![table_2](https://user-images.githubusercontent.com/91646805/169673813-3c9c0321-fec8-4ae4-a092-fdf8be4f3464.jpg)
-![table_2](https://user-images.githubusercontent.com/91646805/169673815-b5ea0589-038f-4a4c-8d84-2fdd2b69ba58.png)
-![table_2_droplet](https://user-images.githubusercontent.com/91646805/169673816-8f4f5a29-fe0d-43aa-bd8d-3f9e9f994a8f.png)
+Nearly all figures and tables from the paper are outlined in ENetV2 and ResNet50 colab notebooks. For example Table 1 displays the annotation summary for each dataset after augmentations. This can be shown in section 6.2 of each colab notebook:<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/186248580-b9d22a03-ee4f-451f-bd5e-19af2ee4fb01.PNG"/></a>
+<br><br>
+You may run this for example by first uncommenting section 1.1 labeled "Data with No Augmentation (No_Augmentation)":<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/186249216-0d38a78b-a25b-436e-919b-e94f19776039.PNG"/></a>
+<br><br>
+then uncommenting section 2. labeled: "For droplet model". Then the following output will be printed:<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/186249418-e3420c46-20d0-4803-bd65-38fe8fb1bea1.PNG"/></a>
+<br><br>
+The same procedure can be used for the cell model to produce the following result:<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/186249529-27c786d9-fb73-47a9-9590-dcc8f5fd277f.PNG"/></a>
+<br><br>
+This matches Table 2 in the publication:<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/186249617-8fddc568-d50a-443b-a4b3-fb9186071308.PNG"/></a>
 
 </details>
 
