@@ -62,17 +62,15 @@ Table 1 displays the annotation summary for each dataset after augmentations. Th
 After running this cell you will get the following output:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/211100493-ba3985fa-9d8e-4a17-8e33-b227c7546f3a.png"/></a>
 <br><br>
-This matches the numbers for the SKOV3drvsn dataset in Table 2 in the publication:<br><br>
+This matches the numbers for the SKOV3drvsn data in Table 2 in the publication:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/211100889-e8a8ca6e-15ea-4fc5-bc84-0360803c6630.png"/></a>
-
-
 
 </details>
 
 <details open>
 <summary>Contributions</summary><br>
 
- **Publication Authors:**<br>Karl Gardner, Md Mezbah Uddin, Linh Tran, Thanh Pham, Siva Vanapalli, and Wei Li<br><br>
+ **Publication Authors:**<br>Karl Gardner, Rutwik Joshi, Nayeem Kashem, Thanh Pham, Qiugang Lu, and Wei Li<br><br>
  
  **Publication Acknowledgements:**<br>WL acknowledge support from National Science Foundation (CBET, Grant No. 1935792) and National Institute of Health (IMAT, Grant No. 1R21CA240185-01).
 </details>
