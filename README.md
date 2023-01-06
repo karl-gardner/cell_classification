@@ -31,11 +31,10 @@
 
 
 # CTC Classification
-Abstract Goes Here
+Cancer diagnostics is an important field of cancer recovery and survival with many expensive procedures needed to administer the correct treatment. Machine Learning (ML) approaches can help with the diagnostic prediction from circulating tumor cells (CTCs) in liquid biopsy, or from a primary tumor in solid biopsy. After predicting the metastatic potential from a deep learning model, doctors in a clinical setting can administer a safe and correct treatment for a specific patient. This paper investigates the use of deep convolutional neural networks for predicting a specific cancer cell line as a tool for label free identification. Specifically, deep learning strategies for weight initialization and performance metrics are described, with transfer learning and the accuracy metric utilized in this work. The equipment used for prediction involve brightfield microscopy without the use of chemical labels, advanced instruments, or time-consuming biological techniques, giving an advantage over current diagnostic methods. In the procedure, three different binary datasets of well-known cancer cell lines were collected, each having a difference in metastatic potential. Two different classification models were adopted (EfficientNetV2 and ResNet-50) with the analysis given for each stage in the ML architecture. The training results for each model and dataset are provided and systematically compared. We found that the test set accuracy showed favorable performance for both ML models with EfficientNetV2 accuracy reaching up to 99%. These test results allowed EfficientNetV2 to outperform ResNet-50 at an average percent increase of 3.5% for each dataset. The high accuracy obtained from the predictions demonstrate that the system can be retrained on a large-scale clinical dataset.
 </div>
 
-![project_workflow](https://user-images.githubusercontent.com/91646805/189386841-c47d65ac-a305-4bca-904e-5ba45405a557.jpg)
-
+<img src="https://user-images.githubusercontent.com/91646805/211077815-91b7d636-9bd1-435a-bd97-9aa37845d1cf.jpg"/></a>
 
 <details>
 <summary>Instructions (click to expand)</summary>
