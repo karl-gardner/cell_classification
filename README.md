@@ -57,11 +57,12 @@ Nearly all figures and tables from the paper are outlined in ENetV2 and ResNet50
 <img src="https://user-images.githubusercontent.com/91646805/211102029-c66b01c7-064f-48e8-a272-50e47353faad.png"/></a>
 
 Table 1 displays the annotation summary for each dataset after augmentations. This can be shown in section 2.2 of each colab notebook:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/220816661-8db8a191-e652-4fa9-967e-c89533ac0d98.png"/></a>
+<img src="https://user-images.githubusercontent.com/91646805/220817076-c79f3e54-9704-4815-a07b-d9014c64a552.png"/></a>
 
 <br><br>
 After running this cell you will get the following output:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/211100493-ba3985fa-9d8e-4a17-8e33-b227c7546f3a.png"/></a>
+<img src="https://user-images.githubusercontent.com/91646805/220817248-b8fceb26-dee3-4f46-94ea-d88072d48b0e.png"/></a>
+
 <br><br>
 This matches the numbers for the SKOV3drvsn data in Table 2 in the publication:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/211100889-e8a8ca6e-15ea-4fc5-bc84-0360803c6630.png"/></a>
