@@ -61,7 +61,7 @@ Table 1 displays the annotation summary for each dataset after augmentations. Th
 
 <br><br>
 After running this cell you will get the following output:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/220817248-b8fceb26-dee3-4f46-94ea-d88072d48b0e.png"/></a>
+<img src="https://user-images.githubusercontent.com/91646805/220817473-27ce2684-f142-4d4a-a747-6e9ac044020f.png"/></a>
 
 <br><br>
 This matches the numbers for the SKOV3drvsn data in Table 2 in the publication:<br><br>
