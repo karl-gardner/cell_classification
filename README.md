@@ -56,8 +56,9 @@ Cancer diagnostics is an important field of cancer recovery and survival with ma
 Nearly all figures and tables from the paper are outlined in ENetV2 and ResNet50 colab notebooks. First choose the dataset that you would like to investigate, e.g. the SKOV3nvsd dataset. Therefore choose the "dataset" variable as 3 because this is the fourth element in the datasets list:
 <img src="https://user-images.githubusercontent.com/91646805/211102029-c66b01c7-064f-48e8-a272-50e47353faad.png"/></a>
 
-Table 1 displays the annotation summary for each dataset after augmentations. This can be shown in section 6.2 of each colab notebook:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/211099908-161890cf-5937-4938-96c6-0a2ea842223c.png"/></a>
+Table 1 displays the annotation summary for each dataset after augmentations. This can be shown in section 2.2 of each colab notebook:<br><br>
+<img src="https://user-images.githubusercontent.com/91646805/220816661-8db8a191-e652-4fa9-967e-c89533ac0d98.png"/></a>
+
 <br><br>
 After running this cell you will get the following output:<br><br>
 <img src="https://user-images.githubusercontent.com/91646805/211100493-ba3985fa-9d8e-4a17-8e33-b227c7546f3a.png"/></a>
