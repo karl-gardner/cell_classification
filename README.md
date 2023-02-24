@@ -65,7 +65,7 @@ After running this cell you will get the following output:<br><br>
 
 <br><br>
 This matches the numbers for the SKOV3drvsn data in Table 2 in the publication:<br><br>
-<img src="https://user-images.githubusercontent.com/91646805/211100889-e8a8ca6e-15ea-4fc5-bc84-0360803c6630.png"/></a>
+<img src="https://user-images.githubusercontent.com/91646805/221083899-a7e3e9f2-d9ad-4e1d-8356-a60e235afa75.png"/></a>
 
 </details>
 
