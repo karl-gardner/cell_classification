@@ -16,7 +16,7 @@
   <a href="https://www.cancer.gov/">
   <img src="https://user-images.githubusercontent.com/91646805/211325390-f26d7325-acc9-499f-9e42-594ca1ce6444.svg" height="32"/></a><br>
 
-  <a href="https://publishing.aip.org/publications/journals/apl-machine-learning/?gclid=CjwKCAiAk--dBhABEiwAchIwkW85gPF_TYNhW8NbKHxNKIodFyrg0OJCNRaFZ87TmQS7HegxnaVB1hoCWZ8QAvD_BwE">
+  <a href="https://aip.scitation.org/journal/aml">
   <img src="https://user-images.githubusercontent.com/91646805/211326974-a4d8b218-784c-4236-b309-cb90520f77a9.svg" height="35"/></a>
 
   <a href="https://colab.research.google.com/github/karl-gardner/ctc_classification/blob/main/ENetV2_classifier.ipynb">
